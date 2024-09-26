@@ -38,11 +38,11 @@ function getBookCardTemplate(booksIndex) {
                 </div>
                 <table id="comment_section${booksIndex}" class="comment_section">
                 </table>
+            </div>
+            <div class="comment_form">
                 <p class="error_message" id="error_message${booksIndex}"></p>
-                <div class="comment_form">
-                    <input onkeyup="commentEnterKey(event, ${booksIndex})" id="comment_input${booksIndex}" class="comment_input" type="text" required placeholder="Schreibe deinen Kommentar...">
-                    <img onclick="addComment(${booksIndex})"class="send_icon" src="assets/icons_logos/send (1).png" alt="Nachricht senden Logo" title="Kommentar absenden">
-                </div>
+                <input onkeyup="commentEnterKey(event, ${booksIndex})" id="comment_input${booksIndex}" class="comment_input" type="text" required placeholder="Schreibe deinen Kommentar...">
+                <img onclick="addComment(${booksIndex})"class="send_icon" src="assets/icons_logos/send (1).png" alt="Nachricht senden Logo" title="Kommentar absenden">
             </div>
     </section>`
 }

@@ -38,10 +38,14 @@
     }
 
     .comment_form{
-        bottom: -100px;
+        width: 92%;
     }
 
     .comment_input{
         width: 85%;
+    }
+
+    footer{
+        height: 180px;
     }
 }
