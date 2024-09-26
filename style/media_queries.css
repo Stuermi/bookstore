@@ -1,0 +1,47 @@
+@media (max-width: 480px){
+    .book_card{
+        min-width: 300px;
+        max-width: 300px !important;
+    }
+
+    .header_logo{
+        height: 80px;
+    }
+
+    header{
+        height: auto;
+    }
+
+    table{
+        font-size: 14px;
+    }
+
+    td{
+        hyphens: auto;
+    }
+
+    .book_title_header{
+        width: 95%;
+        text-align: center;
+    }
+
+    .book_information{
+        width: 90%;
+    }
+
+    .comment_container{
+        width: 90%;
+    }
+
+    .comment_section{
+        max-height: 180px;
+    }
+
+    .comment_form{
+        bottom: -100px;
+    }
+
+    .comment_input{
+        width: 85%;
+    }
+}

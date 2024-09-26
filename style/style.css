@@ -1,0 +1,159 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.d_none{
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 24px;
+    background: #000000; 
+}
+   
+::-webkit-scrollbar-thumb {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 24px;
+    background: #ffffff; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: #707070; 
+}
+
+main{
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.book_card{
+    width: 30%;
+    min-width: 400px;
+    height: 700px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.book_title_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.book_information{
+    padding: 12px;
+}
+
+.price_like_row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 2px;
+}
+
+.like_container{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+td:first-child{
+    min-width: 140px;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+}
+
+hr.solid{
+    border-width: 0;
+    border-top: 3px solid !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.comment_container{
+    padding: 8px;
+    position: relative;
+}
+
+.comment_header{
+    padding-left: 2px;
+}
+
+.comment_section{
+    display: block;
+    height: 225px;
+    overflow-y: auto;
+    border-collapse: collapse;
+}
+
+.comment_form{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+bottom: -60px;
+width: 95%;
+}
+
+.comment_input{
+    width: 90%;
+}
+
+.error_message{
+    display: flex;
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    bottom: -30px;
+}
+
+footer{
+    height: 128px;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_attribute_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_attribute_links a{
+    text-decoration: none;
+}
